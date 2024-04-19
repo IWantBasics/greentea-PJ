@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+h1 {
+    font-family:maitree ;
+    font-weight: 700;
+    font-size:50px;
+}
+
+
+:root {
+    --main-color:green;
+    --primary-color:rgb(185, 224, 147);
+}
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body {
+    background:var(--primary-color);
+}
+
+nav {
+    display:flex;
+    justify-content:space-around;
+    color:white;
+    font-family:maitree;
+    font-weight:900;
+    padding-top:10px;
+}
+
+li {
+    list-style:none;
+    display:inline;
+
+}
+
+li a {
+   
+    color:var(--main-color);
+    margin-left:63px;
+    text-decoration:none;
+}
+
+
+li a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0)
+}
